@@ -83,20 +83,20 @@ header > p {
 
 nav {
     background-color: #1A5A37;
-    padding: 10px 20px 10px 20px;
+    padding: 10px;
     font-weight: bold;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
 }
 
 nav > a {
     color: white;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     text-decoration: none;
 }
 
 nav > a:hover {
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     background-color: #5CBE7D;
     transition-duration: 0.9s;
 }
