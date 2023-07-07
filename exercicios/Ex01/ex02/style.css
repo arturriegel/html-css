@@ -1,0 +1,13 @@
+#container {
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+}
