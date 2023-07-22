@@ -31,19 +31,26 @@ a:hover {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     text-align: center;
     color: white;
-    height: 25vh;
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-size: 8vw;
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: var(--fonte1);
+    font-size: 1em;
 }
 
 section {
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3.5vw;
     padding: 20px;
 }
 
@@ -54,17 +61,19 @@ section.imagem {
     background-attachment: fixed;
 }
 
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.265);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 section#img1 {
     background-image: url(imagens/background001.jpg);
 }
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
-}
-
-h1 {
-    font-family: var(--fonte2);
-    font-size: 8vw;
 }
 
 footer {
