@@ -53,6 +53,9 @@ section {
     font-size: 3.5vw;
     padding: 20px;
 }
+section > p {
+    padding-bottom: 50px;
+}
 
 section.imagem {
     height: 100%;
@@ -70,14 +73,18 @@ section.imagem > p {
 
 section#img1 {
     background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center right;
 }
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
     height: 100%;
+    padding: 10px;
     color: white;
     text-align: center;
     background-color: black;
