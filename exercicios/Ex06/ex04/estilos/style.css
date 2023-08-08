@@ -13,11 +13,12 @@ html, body {
 
 body {
     background: black url(../../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
 }
 
 main {
     background-color: #ffffffa4;
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
